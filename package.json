@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.12.0",
+  "description": "Nuxt 3 starter for new projects ",
+  "author": "asasinmode",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
+    "@unocss/nuxt": "^0.47.5",
+    "@unocss/reset": "^0.47.5",
+    "eslint": "^8.28.0",
+    "nuxt": "3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  }
+}

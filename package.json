@@ -1,7 +1,7 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.18.2",
-  "description": "Nuxt 3 starter for new projects ",
+  "packageManager": "pnpm@7.19.0",
+  "description": "Nuxt 3 starter for new projects",
   "author": "asasinmode",
   "license": "MIT",
   "scripts": {
@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
+    "@iconify-json/logos": "^1.1.19",
+    "@iconify-json/mdi": "^1.1.39",
     "@pinia/nuxt": "^0.4.6",
     "@unocss/nuxt": "^0.48.0",
     "@unocss/reset": "^0.48.0",

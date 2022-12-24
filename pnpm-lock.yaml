@@ -2,6 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.34.0
+  '@iconify-json/logos': ^1.1.19
+  '@iconify-json/mdi': ^1.1.39
   '@pinia/nuxt': ^0.4.6
   '@unocss/nuxt': ^0.48.0
   '@unocss/reset': ^0.48.0
@@ -10,6 +12,8 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': 0.34.0_f5jcydormhcqaoeadqwgqigppy
+  '@iconify-json/logos': 1.1.19
+  '@iconify-json/mdi': 1.1.39
   '@pinia/nuxt': 0.4.6_x2lopl6dvitdigtxz72gjjdrx4
   '@unocss/nuxt': 0.48.0_cggtkagrlotyt7qszvjrmtblfy
   '@unocss/reset': 0.48.0
@@ -484,6 +488,18 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/logos/1.1.19:
+    resolution: {integrity: sha512-Q2YgFBqI+/7FgUm8ECn8DZLmIMbcQTPK1dVY/1MZiiP6W6jXwkrOluKodVMb8DHbk59L2JsNI7oajV7+sF55Dw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.39:
+    resolution: {integrity: sha512-Pgft3XHBEyxcT4xN8U9f0nqVuHDQFGypbU3goJZJVdI25VtKmbyPyuISsnXJq/jo2Llwz5MRocfiH4fXn3U64Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify/types/2.0.0:

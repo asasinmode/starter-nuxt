@@ -1,28 +1,28 @@
 <script setup lang="ts">
-import { filename } from 'pathe/utils'
-import type { StyleValue } from 'vue'
+import { filename } from 'pathe/utils';
+import type { StyleValue } from 'vue';
 
 const { textSquare = false, icon = '' } = defineProps<{
   index: number
   title?: string
   icon?: string
   textSquare?: boolean
-}>()
+}>();
 
 function iconStyle(index: number): StyleValue {
-  const radius = 210
-  const angle = 360 / 5 * (index) * Math.PI / 180 - (Math.PI * 9 / 10)
+  const radius = 210;
+  const angle = 360 / 5 * (index) * Math.PI / 180 - (Math.PI * 9 / 10);
 
   return {
     left: `${Math.cos(angle) * radius}px`,
     top: `${Math.sin(angle) * radius}px`,
-  }
+  };
 }
 
-const glob = import.meta.glob('@/assets/*.svg', { eager: true })
+const glob = import.meta.glob('@/assets/*.svg', { eager: true });
 const svgs = Object.fromEntries(
   Object.entries(glob).map(([key, value]) => [filename(key), value.default]),
-)
+);
 </script>
 
 <template>

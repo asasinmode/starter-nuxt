@@ -26,4 +26,4 @@ document.documentElement.classList.toggle('dark', true)`,
       }],
     },
   },
-})
+});

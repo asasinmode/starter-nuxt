@@ -12,7 +12,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.0",
+    "@asasinmode/eslint-config": "^0.1.6",
     "@iconify-json/logos": "^1.1.19",
     "@iconify-json/mdi": "^1.1.39",
     "@pinia/nuxt": "^0.4.6",
@@ -22,6 +22,6 @@
     "nuxt": "3.0.0"
   },
   "eslintConfig": {
-    "extends": "@antfu"
+    "extends": "@asasinmode"
   }
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
   title: 'nuxt starter',
-})
+});
 </script>
 
 <template>

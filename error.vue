@@ -4,11 +4,11 @@ const { error = { statusCode: '500', message: 'something went wrong 😟' } } = 
     statusCode: string
     message: string
   }
-}>()
+}>();
 
 useHead({
   title: 'error',
-})
+});
 </script>
 
 <template>
